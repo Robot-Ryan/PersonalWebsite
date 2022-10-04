@@ -167,7 +167,6 @@ ul li a:hover{
     background-color: white;
 }
 
-
 h1{
     position: absolute;
     float: left;
@@ -199,6 +198,13 @@ h3{
 
 /*Home page */
 
+.name-title{
+    display: inline-block;
+    line-height:40vh;
+    font-size: 10vh;
+    color: #348feb;
+}
+
 .header-image{
     width: 100%;
     height: 40vh;
@@ -206,6 +212,9 @@ h3{
     background-repeat: no repeat;
     background-position: center;
     background-size: cover;
+
+    /* Name style */
+    text-align: center;
 }
 
 .Menu-Box{
