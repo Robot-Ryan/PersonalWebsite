@@ -213,10 +213,11 @@ h3{
 }
 
 .quote-box{
+    /*translucent box around quote*/
     position: absolute;
     background: rgba(42.75, 45.49, 47.84, 0.7);
-    top:30%;
-    bottom:30%;
+    top:15%;
+    bottom:15%;
     left:5%;
     right:5%;
     
@@ -279,7 +280,7 @@ ul.resumeList li{
 
 
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 913px){
 
     ul.navBar{
         top: 50%;
@@ -323,6 +324,11 @@ ul.resumeList li{
     }
     .contact-box{
         width:45%;
+    }
+
+    .quote-box{
+        top:30%;
+        bottom:30%;
     }
 
 }
