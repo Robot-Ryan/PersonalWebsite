@@ -198,14 +198,15 @@ h3{
 
 /*Home page */
 
-.name-title{
+.image-quote{
     position: absolute;
     top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    left:5%;
+    right:5%;
+    transform: translate(0, -50%);
     font-size: 10vh;
     color: #348feb;
-    font-size:20px;
+    font-size:4vh;
 }
 
 
