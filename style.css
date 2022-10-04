@@ -199,19 +199,25 @@ h3{
 /*Home page */
 
 .name-title{
-    display: inline-block;
-    line-height:40vh;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
     font-size: 10vh;
     color: #348feb;
+    font-size:20px;
 }
+
+
 
 .header-image{
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-image: url('img/starry-night.webp');
     background-repeat: no repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
 
     /* Name style */
     text-align: center;
