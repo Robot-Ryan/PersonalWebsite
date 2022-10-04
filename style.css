@@ -266,4 +266,23 @@ ul.resumeList li{
         width: 80%;
     }
 
+    .Menu-Box{
+        display: inline-block;
+    }
+
+    .project-box{
+        width:500px;
+    }
+
+    .resume-box{
+        width:200px;
+    }
+
+    .about-box{
+        width:400px;
+    }
+    .contactbox{
+        width:300px;
+    }
+
 }
