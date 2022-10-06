@@ -264,18 +264,40 @@ h3{
     font-size: 18px;
 }
 
+.resume-subheader{
+    font-size: 22px;
+    text-align: left;
+}
+
 .resume-headerinfo{
     padding: 8px 0;
     font-size: 18px;
+    text-align: inherit;
 }
 
 ul.resumeList{
     font-size: 20px;
     list-style-position: inside;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 ul.resumeList li{
     padding: 2px 0;
+}
+
+.indentlvl2{
+    margin-left: 5vw;
+}
+
+.indentlvl3{
+    margin-left: 10vw;
+    list-style-type: circle;
+}
+
+.indentlvl4{
+    margin-left: 15vw;
+    list-style-type: square;
 }
 
 
