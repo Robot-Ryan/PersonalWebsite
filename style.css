@@ -264,6 +264,10 @@ h3{
     font-size: 18px;
 }
 
+.resume-header{
+    font-size: 27px;
+    color: #25588b;
+}
 .resume-subheader{
     font-size: 22px;
     text-align: left;
@@ -278,7 +282,7 @@ h3{
 ul.resumeList{
     font-size: 20px;
     list-style-position: inside;
-    margin-bottom: 20px;
+    margin-bottom: 5vh;
     text-align: left;
 }
 
@@ -329,8 +333,11 @@ ul.resumeList li{
 
     .Menu-Box{
         display: inline-block;
+        height: 20vh;
+        line-height: 20vh;
         margin-left: 1%;
         margin-right: 1%;
+        font-size: 6vh;
     }
 
     .project-box{
